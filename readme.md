@@ -18,7 +18,7 @@ You'll need to add the following packages to your unit test projects.
 
 You'll need to create an XUnit class fixture that will be injected into your unit tests.
 
-```
+```c#
     public class UnitTest1
         : IClassFixture<WebApplicationFactory<Startup>>
     {
